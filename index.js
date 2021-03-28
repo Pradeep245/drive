@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 
 const multer = require('multer')
@@ -136,6 +136,6 @@ uploadss();
 
 
 
-app.listen(port,()=>{
-	console.log(`port ${port} started`)
+app.listen(PORT,()=>{
+	console.log(`port ${PORT} started`)
 })
